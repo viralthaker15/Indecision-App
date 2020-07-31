@@ -1,10 +1,10 @@
 {
-	"homepage": "https://viralthaker15.github.io/Indecision-App",
 	"name": "indecision-app",
 	"version": "1.0.0",
 	"main": "index.js",
 	"author": "Viral Thaker",
 	"license": "MIT",
+	"homepage": "https://viralthaker15.github.io/Indecision-App",
 	"scripts": {
 		"serve": "live-server public/",
 		"build": "webpack",
