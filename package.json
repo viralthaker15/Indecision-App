@@ -4,12 +4,12 @@
 	"main": "index.js",
 	"author": "Viral Thaker",
 	"license": "MIT",
-	"homepage": "https://viralthaker15.github.io/Indecision-App",
+	"homepage": "https://viralthaker15.github.io/Indecision-App/",
 	"scripts": {
 		"serve": "live-server public/",
 		"build": "webpack",
 		"dev-server": "webpack-dev-server",
-		"predeploy": "npm run build",
+		"predeploy": "yarn build",
 		"deploy": "gh-pages -d build"
 	},
 	"dependencies": {
