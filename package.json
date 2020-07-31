@@ -9,7 +9,8 @@
 		"serve": "live-server public/",
 		"build": "webpack",
 		"dev-server": "webpack-dev-server",
-		"predeploy": "yarn build",
+		"start": "npm run dev-server",
+		"predeploy": "npm run build",
 		"deploy": "gh-pages -d public"
 	},
 	"dependencies": {
